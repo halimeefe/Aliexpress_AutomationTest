@@ -1,0 +1,39 @@
+
+PROJE ADI: Aliexpress.com Website Automation Test Projesi
+
+PROJENİN TANIMI :
+
+Bu senaryo, kullanıcının Aliexpress.com e-ticaret web sitesini ziyaret ederek
+ürünleri keşfetmesi,rastgele bir sponsorlu ürünü seçmesi, seçilen ürünün özelliklerini incelemesi,
+ürünü sepete eklemesi ve ardından başarılı bir şekilde çıkış yapması gibi adımları içerir.
+
+
+KULLANILAN TEKNOLOJİLER :
+
+CUCUMBER BDD :Senaryo yönetimi ve test raporlama.
+SELENIUM WEBDRİVER :Web otomasyon testleri için kullanılmıştır.
+TESTNG : Test senaryolarının yönetimi ve cross-browser testi için kullanılmıştır.
+XML : Cross browser testini yönetmek için kullanıldı.
+Java : Proje JAVA OOP prensibine uygun olarak kodlandı.
+ExtentReports : Raporlama aracı olark kullanıldı ve test sonuçları görselleştirildi.
+
+
+
+#  Feature: Aliexpress.com Web Sitesi Etkileşimi
+#
+#  Scenario: Ürün Keşif ve İşlem
+
+#  Web sitesine git
+#  Home page de olduğunuzu doğrulayın
+#  Ülke, dil ve para birimi ayarlarını Türkiye olarak ayarlayın
+#  Ve Bilgisayarlar ve Ofis kategorisine tıklayın
+#  Ve Satıcı ülkesini Çin olarak seçin
+#  Daha sonra sayfadaki en ucuz ürünün adını ve fiyatını yazdırın
+#  Ve sayfadaki en pahalı ürünün adını ve fiyatını yazdırın
+#  Ve sayfanın sonuna doğru kaydırın Ve rastgele bir sponsorlu ürün seçin
+#  Ve ürünün adını yazdırın
+#  Ve ürünün yıldız,yorum ve satış adedini yazdırın
+#  Ve tüm ürün görsellerini teker teker yavaşça scroll yapın
+#  Ve ürünü sepete ekle
+#  Ve ürünü sepetten kaldırın ve silin
+#  Ardından başarıyla çıkış yaptığınızı doğrulayın
